@@ -92,15 +92,15 @@ body{
     display: flex;
     justify-content: space-around;
     width: 60%;
-    margin: 0 auto;
-    border:1px solid blue;
+    margin:  50px auto 0 ;
+    /* border:1px solid blue; 
 
-} */
+}  */
 .contact{
     display: flex;  
     width: 45%;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 0 auto ;
     /* border:1px solid red; */
     justify-content: space-around;
 }
@@ -185,7 +185,8 @@ body{
     }
 
         .project span{
-            color: yellow;
+            color:yellow;
+            font-size: 20px;
         }
         .project-image{
             background-color: darkgreen;
@@ -194,7 +195,12 @@ body{
             width:60%;
             height: 300px;
         }
-
+        .library-img{
+            background-image: url("./images/library.jpg");
+            position: relative;
+            background-position:center;
+            background-size:cover ;
+        }
         .crud-img{
             background-image: url("./images/crudvue.png");
             position: relative;
@@ -242,16 +248,16 @@ body{
         .anchor a{
             text-decoration: none;
             margin-left: 30px;
-            color: #22313F;
+            color: white;
+            background-color: #22313F;
+            padding: 8px;
+            border-radius: 2px;
         }
         
-        .project-buttons{
+        
 
-            background-color: rgba(16, 59, 101);
-            color: #f7f1e3;
-            border-radius: 3px;
-            width: 30px;
-        }
+        
+
 
 .footer{
     width:100%;
