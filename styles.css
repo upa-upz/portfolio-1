@@ -11,7 +11,7 @@ body{
 /* #103B67;  color azul*/
 .container{
 
-    background-image: url('/images/computer.jpg');
+    background-image: url('images/computer.jpg');
     background-position: top; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: contain;/* Resize the background image to cover the entire container */
