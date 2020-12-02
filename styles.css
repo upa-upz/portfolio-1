@@ -77,24 +77,6 @@ body{
         transition: .5s;
     }
 
-.foto{
-    background-image: url("img/img2.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    transition: .5s;
-}
-.foto img{
-    width: 200px;
-}
-.foto:hover{
-    height: 320px;
-    width: 320px;
-    border-radius: 50%;
-    transition: .5s;
-}
 
 
 .lenguages{
@@ -105,7 +87,10 @@ body{
      /* border:1px solid blue;  */
 } 
 
+
+
 .lenguages img{
+    width: 100px;
     transition:all 0.4s ease;
 }
 
@@ -147,10 +132,7 @@ body{
         text-decoration: none;
         color:#ffffff ;
     }
- /* fa-github fa-3x */
-    .fa-3x{
-        width: 100px;
-    }
+
 
     form button{
         background-color: rgb(247, 241, 227,0.0) ;
@@ -261,7 +243,11 @@ body{
             opacity: 0.8;
         }
         
-
+.personal-info p{
+    color: aliceblue;
+     width: 30%; 
+     margin-left:10px;
+}
         
 
 
@@ -284,17 +270,37 @@ body{
 
 
 @media(max-width:900px){
+    .header{
+        background-image: -webkit-linear-gradient(-83deg, rgba(16, 59, 101) 59.8%, #ffffff 60%);
+        height: 600px;
+    }
+
    .text{
-        font-size: 15px;
+       margin-top: -25px;
+        font-size: 12px;
     }
 
     .text span{
-        font-size: 17px;
+        font-size: 15px;
+    }
+
+    .lenguages{
+        width: 80%;
+    }
+
+    .lenguages img{
+        width: 60px;
     }
     .iconos{
         width: 60%;
     }
-    .project-title{
+    .project-text{
+         /* border: 1px solid white; */
+         margin-left: auto;
+         width: 100%;
+         text-align: center;  
+    }
+    .project-title h3{
         font-size: 20px;
     }
     .projects-bg{
@@ -306,15 +312,27 @@ body{
         padding: 15px;
         /* border:3px solid red;  */
     }
+
+    .project img{
+        display: none;
+    }
     
-    .icon a,button{
-        font-size: 13px;
+    .icon a{
+        font-size: 10px;
     }
-    .project-image{
-        background-color: darkgreen;
-        /* border: solid 1px white; */
-        border-radius: 5px;
-        width:60%;
-        height: 200px;
+
+    .icon button{
+        margin-top: -4px;
+        font-size: 8px;
     }
+
+    .contact{
+        margin-top: -1px;
+    }
+
+    .personal-info p{
+        width: 50%;
+        font-size: 10px;
+    }
+    
 }
