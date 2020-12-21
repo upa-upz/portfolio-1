@@ -184,7 +184,7 @@ body{
     background-color:#a5bfda ;
     border-radius: 15px;
     margin: 10px;
-        
+    box-shadow: 5px 10px 8px #888888;
 }
 
     .project{
